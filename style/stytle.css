@@ -1,0 +1,243 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background: #282828;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+}
+
+.header__end {
+    display: flex;
+    gap: 30px;
+}
+.header__start{
+    display: flex;
+    column-gap: 10px;
+}
+.header__menu {
+    display: flex;
+    column-gap: 10px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.link {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.header__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(../image/banner.png) no-repeat center/cover;
+
+    height: 700px;
+}
+
+.header__title {
+    font-family: ProstoOne;
+    margin-bottom: 38px;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+.header__btn {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 13px;
+}
+
+.header__txt {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #171718;
+    margin-right: 11px;
+}
+
+.header__end-img {
+    height: 15px;
+    width: 16px;
+}
+
+main {
+    background: #151515;
+}
+
+.information__product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    column-gap: 30px;
+}
+
+.info__txt {
+    width: 538px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.info__txt:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+.line{
+    display: flex;
+    align-items: center;
+}
+.line:before {
+    
+    content: '';
+    display: inline-block;
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+    margin-left: 11px;
+    margin-right: 14px;
+}
+.line::after {
+    content: '';
+    display: inline-block;
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+    margin-left: 11px;
+    margin-right: 14px;
+}
+
+
+
+
+
+
+
+
+.product__containt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    
+}
+
+.product__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 255px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-top: 79px;
+    margin-bottom: 55px;
+}
+
+.card__title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.card__txt {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card__btn {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 161px;
+    background: #151515;
+    text-align: center;
+    padding: 7px 0;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #282828;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.footer__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.footer__link {
+    font-family: Montserrat;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer__end {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.menu-btn{
+    display: none;
+}
